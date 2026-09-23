@@ -132,6 +132,13 @@ python -m dspy_query_rewrite demo
 各章 README 的详尽程度不同。工程化程度高的几章（`03`、`04`、`06`、`07`）写得更细，
 包含目录说明、设计取舍与容易踩的坑。
 
+## 关于作者
+
+这个仓库的代码，来自公众号「代码的江湖」的实战系列。每篇文章配一份可独立运行
+的工程，代码和文章同步更新。
+
+<img src="assets/qrcode-gh.jpg" width="220" alt="公众号：代码的江湖">
+
 ## 许可
 
 MIT License，见 [LICENSE](LICENSE)。
