@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+build/
+dist/
+pip-wheel-metadata/
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 运行产物（路径写到 demo 那一层）
+07-shopping-agent/shopping_agent/runtime/
+07-shopping-agent/shopping_agent/config.json
+06-eval-and-monitor/agent_eval_demo/reports/*
+!06-eval-and-monitor/agent_eval_demo/reports/.gitkeep
+06-eval-and-monitor/agent_eval_demo/cassettes/*
+!06-eval-and-monitor/agent_eval_demo/cassettes/.gitkeep
+06-eval-and-monitor/agent_eval_demo/data/baseline.json
+06-eval-and-monitor/agent_eval_demo/data/eval_set.frozen.json
+08-dspy-query-rewrite/dspy_query_rewrite/artifacts/*
+!08-dspy-query-rewrite/dspy_query_rewrite/artifacts/.gitkeep
+*.log
+logs/
+
+# 凭据：一律不进仓库
+.env
+.env.*
+*.pem
+*.key
+config.json
+!config.example.json

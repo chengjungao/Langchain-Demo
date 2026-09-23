@@ -1,0 +1,6 @@
+langchain==1.4.0
+langchain-core==1.6.2
+langgraph==1.2.11
+# 可选：只在跑 demos/demo_prebuilt.py 时需要
+# langgraph-supervisor==0.0.31
+# langgraph-swarm==0.1.0

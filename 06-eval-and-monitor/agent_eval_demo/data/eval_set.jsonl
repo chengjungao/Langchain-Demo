@@ -1,0 +1,6 @@
+{"id":"E01","tier":"easy","msg":"我要退货，订单 A1001 还没到","intent":"refund","priority":"normal","order_id":"A1001","must_include":["退款","A1001"]}
+{"id":"E02","tier":"easy","msg":"发票开错了，抬头写错了","intent":"invoice","priority":"normal","order_id":null,"must_include":["发票"]}
+{"id":"E03","tier":"easy","msg":"快递三天没动了","intent":"logistics","priority":"normal","order_id":null,"must_include":["物流"]}
+{"id":"E04","tier":"hard","msg":"东西坏了，但我更想直接退钱","intent":"refund","priority":"high","order_id":null,"must_include":["退款"]}
+{"id":"E05","tier":"hard","msg":"发票要改成公司名，另外包裹少了一件","intent":"invoice","priority":"high","order_id":null,"must_include":["发票"]}
+{"id":"E06","tier":"hard","msg":"我不急，就是想问问保修到什么时候","intent":"warranty","priority":"low","order_id":null,"must_include":["保修"]}

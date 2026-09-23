@@ -1,0 +1,19 @@
+# 模型配置模板。
+#
+# 这个文件只作参考 —— 真正生效的是 config.json，它由页面右上角的
+# 「模型设置」写入，也可以照着下面的样子手写一份。
+#
+# 提醒：config.json 里有密钥，已经在 .gitignore 里排除了，别提交。
+{
+  "provider": "lmstudio",
+  "base_url": "http://127.0.0.1:1234/v1",
+  "api_key": "lm-studio",
+  "model": "qwen/qwen3.5-9b",
+  "temperature": 0.3,
+  "max_tokens": 900,
+  "timeout": 120,
+  "max_rounds": 6,
+  "max_amount": 2000,
+  "history_limit": 12,
+  "memory_limit": 6
+}

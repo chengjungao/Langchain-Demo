@@ -1,0 +1,10 @@
+# 核心层（demo.py / cli.py）零第三方依赖，只用标准库：sqlite3 + 哈希向量。
+# 也就是说，装不装任何东西都能先把记忆系统跑起来。
+
+# ---- 跑 agent_demo.py（LangGraph 集成）需要 ----
+langgraph>=1.0
+langchain>=1.0
+
+# ---- 换成真实模型与真实向量时按需安装 ----
+# sentence-transformers>=3.0   # bge-m3 本地嵌入
+# openai>=1.50                 # OpenAI 兼容的嵌入与记忆抽取

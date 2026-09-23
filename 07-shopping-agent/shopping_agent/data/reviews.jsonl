@@ -1,0 +1,60 @@
+{"review_id": "R0001", "sku_id": "SKU-E1001", "user_id": "U1001", "rating": 5, "content": "通勤开降噪，地铁噪音基本听不到，一周充一次电。", "tags": ["降噪好", "续航好"], "created_at": "2026-07-01"}
+{"review_id": "R0002", "sku_id": "SKU-E1001", "user_id": "U1002", "rating": 4, "content": "整体满意，戴久了耳朵有点闷，夏天更明显。", "tags": ["佩戴一般"], "created_at": "2026-07-02"}
+{"review_id": "R0003", "sku_id": "SKU-E1002", "user_id": "U1003", "rating": 5, "content": "戴眼镜也不夹，这点对我很重要。", "tags": ["不夹头"], "created_at": "2026-08-03"}
+{"review_id": "R0004", "sku_id": "SKU-E1003", "user_id": "U1005", "rating": 4, "content": "开盖即连，切换设备挺快。", "tags": ["连接稳"], "created_at": "2026-09-05"}
+{"review_id": "R0005", "sku_id": "SKU-E1003", "user_id": "U1001", "rating": 4, "content": "同价位对比了三款，选这个没后悔。", "tags": ["性价比"], "created_at": "2026-09-06"}
+{"review_id": "R0006", "sku_id": "SKU-E1004", "user_id": "U1002", "rating": 4, "content": "办公室用不吵到同事。", "tags": ["办公友好"], "created_at": "2026-07-07"}
+{"review_id": "R0007", "sku_id": "SKU-E1005", "user_id": "U1004", "rating": 3, "content": "音质一般，低音有点轰，听人声还行。", "tags": ["音质一般"], "created_at": "2026-08-09"}
+{"review_id": "R0008", "sku_id": "SKU-E1005", "user_id": "U1005", "rating": 3, "content": "耳塞偏硬，换了小一号才合适。", "tags": ["耳塞偏硬"], "created_at": "2026-08-10"}
+{"review_id": "R0009", "sku_id": "SKU-E1006", "user_id": "U1001", "rating": 5, "content": "戴眼镜也不夹，这点对我很重要。", "tags": ["不夹头"], "created_at": "2026-09-11"}
+{"review_id": "R0010", "sku_id": "SKU-E1007", "user_id": "U1003", "rating": 1, "content": "到手就是坏的，退换很麻烦。", "tags": ["品控问题", "售后差"], "created_at": "2026-07-13"}
+{"review_id": "R0011", "sku_id": "SKU-E1007", "user_id": "U1004", "rating": 5, "content": "重量控制得不错，长时间戴不累。", "tags": ["轻量"], "created_at": "2026-07-14"}
+{"review_id": "R0012", "sku_id": "SKU-E1008", "user_id": "U1005", "rating": 4, "content": "办公室用不吵到同事。", "tags": ["办公友好"], "created_at": "2026-08-15"}
+{"review_id": "R0013", "sku_id": "SKU-E1009", "user_id": "U1002", "rating": 3, "content": "开了降噪有底噪，安静的时候能听出来。", "tags": ["底噪"], "created_at": "2026-09-17"}
+{"review_id": "R0014", "sku_id": "SKU-E1009", "user_id": "U1003", "rating": 3, "content": "耳塞偏硬，换了小一号才合适。", "tags": ["耳塞偏硬"], "created_at": "2026-09-18"}
+{"review_id": "R0015", "sku_id": "SKU-E1010", "user_id": "U1004", "rating": 4, "content": "开盖即连，切换设备挺快。", "tags": ["连接稳"], "created_at": "2026-07-19"}
+{"review_id": "R0016", "sku_id": "SKU-E1011", "user_id": "U1001", "rating": 4, "content": "办公室用不吵到同事。", "tags": ["办公友好"], "created_at": "2026-08-21"}
+{"review_id": "R0017", "sku_id": "SKU-E1011", "user_id": "U1002", "rating": 5, "content": "连接稳定，没遇到过断连。", "tags": ["连接稳"], "created_at": "2026-08-22"}
+{"review_id": "R0018", "sku_id": "SKU-E1012", "user_id": "U1003", "rating": 4, "content": "办公室用不吵到同事。", "tags": ["办公友好"], "created_at": "2026-09-23"}
+{"review_id": "R0019", "sku_id": "SKU-E1013", "user_id": "U1005", "rating": 3, "content": "开了降噪有底噪，安静的时候能听出来。", "tags": ["底噪"], "created_at": "2026-07-25"}
+{"review_id": "R0020", "sku_id": "SKU-E1013", "user_id": "U1001", "rating": 2, "content": "夹头，戴一小时太阳穴就疼。", "tags": ["夹头", "佩戴差"], "created_at": "2026-07-26"}
+{"review_id": "R0021", "sku_id": "SKU-E1014", "user_id": "U1002", "rating": 5, "content": "通勤开降噪，地铁噪音基本听不到，一周充一次电。", "tags": ["降噪好", "续航好"], "created_at": "2026-08-27"}
+{"review_id": "R0022", "sku_id": "SKU-E1015", "user_id": "U1004", "rating": 5, "content": "戴眼镜也不夹，这点对我很重要。", "tags": ["不夹头"], "created_at": "2026-09-02"}
+{"review_id": "R0023", "sku_id": "SKU-E1015", "user_id": "U1005", "rating": 2, "content": "用了两周单边没声音，正在走售后。", "tags": ["品控问题"], "created_at": "2026-09-03"}
+{"review_id": "R0024", "sku_id": "SKU-E1016", "user_id": "U1001", "rating": 5, "content": "戴眼镜也不夹，这点对我很重要。", "tags": ["不夹头"], "created_at": "2026-07-04"}
+{"review_id": "R0025", "sku_id": "SKU-E1017", "user_id": "U1003", "rating": 4, "content": "开盖即连，切换设备挺快。", "tags": ["连接稳"], "created_at": "2026-08-06"}
+{"review_id": "R0026", "sku_id": "SKU-E1017", "user_id": "U1004", "rating": 3, "content": "音质一般，低音有点轰，听人声还行。", "tags": ["音质一般"], "created_at": "2026-08-07"}
+{"review_id": "R0027", "sku_id": "SKU-E1018", "user_id": "U1005", "rating": 3, "content": "音质一般，低音有点轰，听人声还行。", "tags": ["音质一般"], "created_at": "2026-09-08"}
+{"review_id": "R0028", "sku_id": "SKU-E1019", "user_id": "U1002", "rating": 3, "content": "音质一般，低音有点轰，听人声还行。", "tags": ["音质一般"], "created_at": "2026-07-10"}
+{"review_id": "R0029", "sku_id": "SKU-E1019", "user_id": "U1003", "rating": 5, "content": "通勤开降噪，地铁噪音基本听不到，一周充一次电。", "tags": ["降噪好", "续航好"], "created_at": "2026-07-11"}
+{"review_id": "R0030", "sku_id": "SKU-E1020", "user_id": "U1004", "rating": 4, "content": "办公室用不吵到同事。", "tags": ["办公友好"], "created_at": "2026-08-12"}
+{"review_id": "R0031", "sku_id": "SKU-K2001", "user_id": "U1001", "rating": 5, "content": "续航很久，两个月没充过电。", "tags": ["续航好"], "created_at": "2026-09-14"}
+{"review_id": "R0032", "sku_id": "SKU-K2001", "user_id": "U1002", "rating": 4, "content": "价格比同规格的便宜不少。", "tags": ["性价比"], "created_at": "2026-09-15"}
+{"review_id": "R0033", "sku_id": "SKU-K2002", "user_id": "U1003", "rating": 4, "content": "价格比同规格的便宜不少。", "tags": ["性价比"], "created_at": "2026-07-16"}
+{"review_id": "R0034", "sku_id": "SKU-K2003", "user_id": "U1005", "rating": 5, "content": "三模切换很快，桌面线少了很多。", "tags": ["三模方便"], "created_at": "2026-08-18"}
+{"review_id": "R0035", "sku_id": "SKU-K2003", "user_id": "U1001", "rating": 5, "content": "续航很久，两个月没充过电。", "tags": ["续航好"], "created_at": "2026-08-19"}
+{"review_id": "R0036", "sku_id": "SKU-K2004", "user_id": "U1002", "rating": 4, "content": "热插拔换轴很方便，随便折腾。", "tags": ["热插拔"], "created_at": "2026-09-20"}
+{"review_id": "R0037", "sku_id": "SKU-K2005", "user_id": "U1004", "rating": 5, "content": "手感扎实，敲起来很舒服。", "tags": ["手感好"], "created_at": "2026-07-22"}
+{"review_id": "R0038", "sku_id": "SKU-K2005", "user_id": "U1005", "rating": 4, "content": "小配列桌面很清爽，看着舒服。", "tags": ["桌面整洁"], "created_at": "2026-07-23"}
+{"review_id": "R0039", "sku_id": "SKU-K2006", "user_id": "U1001", "rating": 5, "content": "三模切换很快，桌面线少了很多。", "tags": ["三模方便"], "created_at": "2026-08-24"}
+{"review_id": "R0040", "sku_id": "SKU-K2007", "user_id": "U1003", "rating": 4, "content": "小配列桌面很清爽，看着舒服。", "tags": ["桌面整洁"], "created_at": "2026-09-26"}
+{"review_id": "R0041", "sku_id": "SKU-K2007", "user_id": "U1004", "rating": 4, "content": "热插拔换轴很方便，随便折腾。", "tags": ["热插拔"], "created_at": "2026-09-27"}
+{"review_id": "R0042", "sku_id": "SKU-K2008", "user_id": "U1005", "rating": 4, "content": "价格比同规格的便宜不少。", "tags": ["性价比"], "created_at": "2026-07-01"}
+{"review_id": "R0043", "sku_id": "SKU-K2009", "user_id": "U1002", "rating": 5, "content": "手感扎实，敲起来很舒服。", "tags": ["手感好"], "created_at": "2026-08-03"}
+{"review_id": "R0044", "sku_id": "SKU-K2009", "user_id": "U1003", "rating": 2, "content": "2.4G 接收器偶尔断连，换成有线就没问题。", "tags": ["连接不稳"], "created_at": "2026-08-04"}
+{"review_id": "R0045", "sku_id": "SKU-K2010", "user_id": "U1004", "rating": 3, "content": "说明书太简单，组合键要自己摸索。", "tags": ["说明书差"], "created_at": "2026-09-05"}
+{"review_id": "R0046", "sku_id": "SKU-K2011", "user_id": "U1001", "rating": 5, "content": "手感扎实，敲起来很舒服。", "tags": ["手感好"], "created_at": "2026-07-07"}
+{"review_id": "R0047", "sku_id": "SKU-K2011", "user_id": "U1002", "rating": 2, "content": "青轴太响了，晚上不太敢用。", "tags": ["噪音大"], "created_at": "2026-07-08"}
+{"review_id": "R0048", "sku_id": "SKU-K2012", "user_id": "U1003", "rating": 4, "content": "价格比同规格的便宜不少。", "tags": ["性价比"], "created_at": "2026-08-09"}
+{"review_id": "R0049", "sku_id": "SKU-D3001", "user_id": "U1005", "rating": 5, "content": "颜色很正，做图够用。", "tags": ["色彩好"], "created_at": "2026-09-11"}
+{"review_id": "R0050", "sku_id": "SKU-D3001", "user_id": "U1001", "rating": 4, "content": "刷新率高，拖影几乎看不出来。", "tags": ["高刷"], "created_at": "2026-09-12"}
+{"review_id": "R0051", "sku_id": "SKU-D3002", "user_id": "U1002", "rating": 4, "content": "面板可视角度一般，正对着看没问题。", "tags": ["可视角度一般"], "created_at": "2026-07-13"}
+{"review_id": "R0052", "sku_id": "SKU-D3003", "user_id": "U1004", "rating": 5, "content": "包装很结实，运输没磕碰。", "tags": ["包装好"], "created_at": "2026-08-15"}
+{"review_id": "R0053", "sku_id": "SKU-D3003", "user_id": "U1005", "rating": 5, "content": "一根 Type-C 连笔记本，桌面清爽多了。", "tags": ["Type-C 供电"], "created_at": "2026-08-16"}
+{"review_id": "R0054", "sku_id": "SKU-D3004", "user_id": "U1001", "rating": 3, "content": "白色背景下有轻微偏色，日常看不出来。", "tags": ["偏色"], "created_at": "2026-09-17"}
+{"review_id": "R0055", "sku_id": "SKU-D3005", "user_id": "U1003", "rating": 5, "content": "颜色很正，做图够用。", "tags": ["色彩好"], "created_at": "2026-07-19"}
+{"review_id": "R0056", "sku_id": "SKU-D3005", "user_id": "U1004", "rating": 5, "content": "包装很结实，运输没磕碰。", "tags": ["包装好"], "created_at": "2026-07-20"}
+{"review_id": "R0057", "sku_id": "SKU-D3006", "user_id": "U1005", "rating": 5, "content": "一屏能放很多行代码，效率提升明显。", "tags": ["办公效率"], "created_at": "2026-08-21"}
+{"review_id": "R0058", "sku_id": "SKU-D3007", "user_id": "U1002", "rating": 5, "content": "包装很结实，运输没磕碰。", "tags": ["包装好"], "created_at": "2026-09-23"}
+{"review_id": "R0059", "sku_id": "SKU-D3007", "user_id": "U1003", "rating": 4, "content": "接口够用，HDMI 和 DP 都有。", "tags": ["接口齐全"], "created_at": "2026-09-24"}
+{"review_id": "R0060", "sku_id": "SKU-D3008", "user_id": "U1004", "rating": 3, "content": "白色背景下有轻微偏色，日常看不出来。", "tags": ["偏色"], "created_at": "2026-07-25"}

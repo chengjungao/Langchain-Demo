@@ -1,0 +1,22 @@
+# agent_eval_demo —— 评测与监控最小可跑集
+#
+# 版本下限按《LangChain 实战》系列第 9 篇的实测环境写：
+#   langchain 1.4.0 / langchain-core 1.6.2 / langgraph 1.2.11 / langsmith 0.12.4
+#
+# 装法（建议独立 venv）：
+#   python -m venv .venv
+#   .venv\Scripts\activate        # Windows
+#   pip install -r requirements.txt
+#
+# 只跑确定性部分（不接真模型）时，langchain-openai 可以不装。
+
+langchain>=1.0.0
+langchain-core>=1.0.0
+langsmith>=0.5.0
+
+# 可选：接本地 LM Studio / 任意 OpenAI 兼容端点跑 LLM-as-judge。
+# 不装也能跑，judge 相关的脚本会自动跳过。
+langchain-openai>=0.3.0
+
+# 测试
+pytest>=8.0.0

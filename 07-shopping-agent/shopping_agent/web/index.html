@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>购物助手 Agent</title>
+<link rel="stylesheet" href="/web/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="dot"></span>
+    <h1>购物助手 Agent</h1>
+    <span class="badge" id="modeBadge">载入中</span>
+  </div>
+  <div class="actions">
+    <label class="field-inline">
+      <span>身份</span>
+      <select id="userSelect"></select>
+    </label>
+    <button id="btnNew" class="ghost">新会话</button>
+    <button id="btnSettings" class="primary">模型设置</button>
+  </div>
+</header>
+
+<main>
+  <!-- ── 左：记忆 ──────────────────────────────────── -->
+  <aside class="panel" id="leftPanel">
+    <div class="panel-head">
+      <span>记忆</span>
+      <span class="hint" id="memStats">—</span>
+    </div>
+    <div class="tabs" id="memTabs">
+      <button data-tab="profile" class="active">用户画像</button>
+      <button data-tab="episodes">事件</button>
+      <button data-tab="sessions">会话</button>
+    </div>
+    <div class="panel-body" id="memBody">
+      <p class="empty">载入中…</p>
+    </div>
+    <div class="panel-foot">
+      <button id="btnDecay" class="ghost small" title="把长期没被用上、置信度又低的画像停用">遗忘扫描</button>
+      <button id="btnClearMem" class="ghost small danger">清空该用户记忆</button>
+    </div>
+  </aside>
+
+  <!-- ── 中：对话 ──────────────────────────────────── -->
+  <section class="chat">
+    <div class="messages" id="messages"></div>
+
+    <div class="examples" id="examples"></div>
+
+    <div class="composer">
+      <textarea id="input" rows="1"
+        placeholder="说点什么，比如「想买个通勤用的降噪耳机，预算一千以内」"></textarea>
+      <button id="btnSend">发送</button>
+    </div>
+    <div class="composer-foot">
+      <span id="statusLine">就绪</span>
+      <span id="usageLine"></span>
+    </div>
+  </section>
+
+  <!-- ── 右：轨迹 ──────────────────────────────────── -->
+  <aside class="panel" id="rightPanel">
+    <div class="panel-head">
+      <span>这一轮发生了什么</span>
+      <button id="btnToggleTrace" class="ghost small">收起</button>
+    </div>
+    <div class="panel-body" id="traceBody">
+      <p class="empty">还没有对话。</p>
+    </div>
+  </aside>
+</main>
+
+<!-- ── 设置弹窗 ──────────────────────────────────────── -->
+<div class="modal" id="settingsModal" hidden>
+  <div class="dialog">
+    <div class="dialog-head">
+      <h2>模型设置</h2>
+      <button id="btnCloseSettings" class="ghost small">关闭</button>
+    </div>
+
+    <p class="note">
+      填上任意 OpenAI 兼容端点的地址与密钥就能用真实模型。本地服务（LM Studio /
+      Ollama）密钥栏随便填。不填也能跑，会走内置规则。
+    </p>
+
+    <div class="preset-row" id="presetRow"></div>
+
+    <div class="form-grid">
+      <label class="span2">
+        <span>接口地址 base_url</span>
+        <input id="cfgBaseUrl" placeholder="http://127.0.0.1:1234/v1">
+      </label>
+      <label class="span2">
+        <span>API Key</span>
+        <input id="cfgApiKey" type="password" placeholder="本地服务填 lm-studio 即可">
+      </label>
+      <label class="span2">
+        <span>模型名</span>
+        <div class="row">
+          <input id="cfgModel" list="modelOptions" placeholder="留空则用服务端第一个可用模型">
+          <datalist id="modelOptions"></datalist>
+          <button id="btnLoadModels" class="ghost">拉取列表</button>
+        </div>
+      </label>
+      <label><span>温度</span><input id="cfgTemp" type="number" step="0.1" min="0" max="2"></label>
+      <label><span>单次最大生成</span><input id="cfgMaxTokens" type="number" min="64" step="64"></label>
+      <label><span>请求超时（秒）</span><input id="cfgTimeout" type="number" min="5"></label>
+      <label><span>分支轮数上限</span><input id="cfgMaxRounds" type="number" min="1"></label>
+      <label><span>确认金额阈值（元）</span><input id="cfgMaxAmount" type="number" min="0" step="100"></label>
+      <label><span>带入历史条数</span><input id="cfgHistory" type="number" min="2"></label>
+      <label><span>注入记忆条数</span><input id="cfgMemory" type="number" min="0"></label>
+    </div>
+
+    <div class="test-result" id="testResult"></div>
+
+    <div class="dialog-actions">
+      <button id="btnTest" class="ghost">测试连接</button>
+      <button id="btnSave" class="primary">保存并应用</button>
+    </div>
+  </div>
+</div>
+
+<script src="/web/app.js"></script>
+</body>
+</html>

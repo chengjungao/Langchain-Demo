@@ -1,0 +1,13 @@
+# 运行产物
+reports/*
+!reports/.gitkeep
+cassettes/*
+!cassettes/.gitkeep
+data/baseline.json
+data/eval_set.frozen.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/

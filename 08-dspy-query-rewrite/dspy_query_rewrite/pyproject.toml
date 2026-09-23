@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dspy-query-rewrite"
+version = "0.1.0"
+description = "DSPy 优化器 + 蒸馏实战项目：电商搜索 query 改写与意图分类（编译期 teacher 云端 / 运行期可切本地）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "chengjungao" }]
+keywords = ["dspy", "llm", "prompt-optimization", "distillation", "search"]
+dependencies = [
+    "dspy>=3.3.1",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dspy-qr = "dspy_query_rewrite.cli:main"
+
+[tool.setuptools]
+packages = ["dspy_query_rewrite"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

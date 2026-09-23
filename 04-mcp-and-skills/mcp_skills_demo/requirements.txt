@@ -1,0 +1,6 @@
+# mcp_skills_demo 需要的依赖。
+# mcp 的版本下限按正文实测环境写，低版本缺 streamable-http 传输。
+langchain>=1.4
+langgraph
+langchain-mcp-adapters
+mcp>=1.30

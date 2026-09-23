@@ -1,0 +1,22 @@
+# DSPy 查询改写项目配置
+# lm.provider: dummy（零成本演示）| openai（真实编译，需配 api_key_env 指向的环境变量）
+
+lm:
+  provider: dummy          # dummy | openai
+  model: openai/gpt-4o-mini
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+
+# 优化器选型：BootstrapFewShot | GEPA | MIPROv2 | SIMBA
+# 提示：GEPA/MIPROv2/SIMBA 需真实 LM 才能体现价值，dummy 模式请用 BootstrapFewShot
+optimizer:
+  name: BootstrapFewShot
+  max_bootstrapped_demos: 3
+  max_labeled_demos: 3
+
+paths:
+  trainset: data/trainset.jsonl
+  devset: data/devset.jsonl
+  compiled_artifact: artifacts/query_rewrite.json
+  finetune_output: artifacts/finetune_data.jsonl
+  batch_output: artifacts/batch_labels.jsonl

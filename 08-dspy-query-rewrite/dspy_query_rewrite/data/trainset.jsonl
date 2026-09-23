@@ -1,0 +1,10 @@
+{"raw_query": "想买个降噪好点的耳机", "rewritten": "降噪耳机", "intent": "buy"}
+{"raw_query": "手机 华为和小米哪个好", "rewritten": "华为手机 小米手机 对比", "intent": "compare"}
+{"raw_query": "有没有便宜点的跑步鞋", "rewritten": "跑步鞋 实惠", "intent": "browse"}
+{"raw_query": "iPhone 16", "rewritten": "iPhone 16", "intent": "browse"}
+{"raw_query": "海尔洗衣机10公斤的多少钱", "rewritten": "海尔洗衣机 10公斤", "intent": "buy"}
+{"raw_query": "苹果15和华为p70哪个拍照好", "rewritten": "苹果iPhone15 华为P70 拍照对比", "intent": "compare"}
+{"raw_query": "送女朋友的礼物推荐", "rewritten": "礼物 推荐", "intent": "browse"}
+{"raw_query": "联想小新pro14怎么样", "rewritten": "联想小新Pro14 评测", "intent": "browse"}
+{"raw_query": "京东自营的机械键盘", "rewritten": "机械键盘 京东自营", "intent": "buy"}
+{"raw_query": "美的和格力空调哪个省电", "rewritten": "美的空调 格力空调 省电对比", "intent": "compare"}

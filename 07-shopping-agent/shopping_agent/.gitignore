@@ -1,0 +1,12 @@
+# 运行期数据。里面有会话历史、长期记忆、订单和工单，
+# 都是本地跑出来的，不该进仓库。
+runtime/
+
+# 模型配置里有密钥
+config.json
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

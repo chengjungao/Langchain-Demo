@@ -1,0 +1,20 @@
+{"case_id": "C001", "user_id": "U1001", "input": "想买个通勤坐地铁用的降噪耳机，预算一千块以内", "expected_route": "advisor", "expected_tools": ["search_products"], "expected_facts": ["价格不超过 1000", "提到降噪"], "must_not": ["直接下单"]}
+{"case_id": "C002", "user_id": "U1001", "input": "上次买的那款戴久了耳朵疼，有没有轻一点的", "expected_route": "advisor", "expected_tools": ["search_products", "recall_preferences"], "expected_facts": ["提到重量或佩戴"], "must_not": ["推荐已购买过的同一款"]}
+{"case_id": "C003", "user_id": "U1001", "input": "聆风 A2 Pro 和木石 M9 哪个降噪更好", "expected_route": "advisor", "expected_tools": ["compare_products"], "expected_facts": ["对比两款", "给出降噪深度"], "must_not": []}
+{"case_id": "C004", "user_id": "U1002", "input": "在家办公想要个安静的键盘，别吵到室友", "expected_route": "advisor", "expected_tools": ["search_products"], "expected_facts": ["提到静音"], "must_not": ["推荐青轴键盘"]}
+{"case_id": "C005", "user_id": "U1002", "input": "我上次退了的那单，退款到账了吗", "expected_route": "order", "expected_tools": ["list_orders"], "expected_facts": ["查到订单", "给出退款状态"], "must_not": ["编造退款金额"]}
+{"case_id": "C006", "user_id": "U1002", "input": "帮我查下 SO20260905003 到哪了", "expected_route": "order", "expected_tools": ["get_logistics"], "expected_facts": ["给出物流状态"], "must_not": ["编造轨迹"]}
+{"case_id": "C007", "user_id": "U1003", "input": "想送同事一个键盘，预算八百，要看起来体面的", "expected_route": "advisor", "expected_tools": ["search_products"], "expected_facts": ["价格不超过 800", "提到外观或送礼"], "must_not": []}
+{"case_id": "C008", "user_id": "U1003", "input": "开发票要多久", "expected_route": "service", "expected_tools": ["search_policies"], "expected_facts": ["给出开票时效"], "must_not": []}
+{"case_id": "C009", "user_id": "U1004", "input": "我的显示器有一个坏点，能换吗", "expected_route": "service", "expected_tools": ["search_policies", "check_warranty"], "expected_facts": ["提及保修或退换货政策"], "must_not": ["承诺必换成功"]}
+{"case_id": "C010", "user_id": "U1004", "input": "34 寸那款和 32 寸 4K 哪个更适合写代码", "expected_route": "advisor", "expected_tools": ["compare_products"], "expected_facts": ["对比两款", "提到分辨率或尺寸"], "must_not": []}
+{"case_id": "C011", "user_id": "U1005", "input": "一百五以内有什么耳机", "expected_route": "advisor", "expected_tools": ["search_products"], "expected_facts": ["价格不超过 150"], "must_not": ["推荐超过 200 元的商品"]}
+{"case_id": "C012", "user_id": "U1001", "input": "帮我下单聆风 Buds 4 Pro", "expected_route": "order", "expected_tools": ["quote_order"], "expected_facts": ["给出金额", "请求确认"], "must_not": ["未经确认直接下单"]}
+{"case_id": "C013", "user_id": "U1002", "input": "键盘保修多久", "expected_route": "service", "expected_tools": ["search_policies"], "expected_facts": ["给出保修时长"], "must_not": []}
+{"case_id": "C014", "user_id": "U1003", "input": "超过了七天还能退吗", "expected_route": "service", "expected_tools": ["search_policies"], "expected_facts": ["提及七天时效"], "must_not": ["承诺一定可以退"]}
+{"case_id": "C015", "user_id": "U1004", "input": "订单 SO20260908008 帮我改下收货地址", "expected_route": "order", "expected_tools": ["list_orders", "get_logistics"], "expected_facts": ["查看订单或物流状态"], "must_not": ["直接承诺改寄成功"]}
+{"case_id": "C016", "user_id": "U1001", "input": "有没有续航久一点的头戴", "expected_route": "advisor", "expected_tools": ["search_products"], "expected_facts": ["提到续航"], "must_not": []}
+{"case_id": "C017", "user_id": "U1002", "input": "旧键盘能折价换新吗", "expected_route": "service", "expected_tools": ["search_policies"], "expected_facts": ["提及平台政策"], "must_not": ["承诺可以折价"]}
+{"case_id": "C018", "user_id": "U1005", "input": "满减和优惠券能一起用吗", "expected_route": "service", "expected_tools": ["search_policies"], "expected_facts": ["说明叠加规则"], "must_not": []}
+{"case_id": "C019", "user_id": "U1003", "input": "帮我看看显示器有没有五百块的", "expected_route": "advisor", "expected_tools": ["search_products"], "expected_facts": ["价格不超过 500"], "must_not": []}
+{"case_id": "C020", "user_id": "U1004", "input": "价保怎么申请", "expected_route": "service", "expected_tools": ["search_policies"], "expected_facts": ["说明价保条件与流程"], "must_not": []}

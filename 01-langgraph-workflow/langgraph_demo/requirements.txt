@@ -1,0 +1,5 @@
+# langgraph_demo 需要的依赖。
+# 版本给下限，不锁死，避免和读者本机已有的版本打架。
+langgraph>=1.0
+langgraph-checkpoint-sqlite
+langchain-core

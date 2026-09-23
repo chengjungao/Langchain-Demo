@@ -1,0 +1,7 @@
+# 运行这个工程需要的依赖。版本给了下限，没锁死 ——
+# 这几个包在小版本内保持兼容，锁死了反而容易和读者本机已有的版本打架。
+langchain>=1.0
+langchain-openai>=1.0
+langgraph>=1.0
+langgraph-checkpoint-sqlite>=3.0
+pydantic>=2.7

@@ -1,0 +1,10 @@
+{"promo_id": "PR001", "name": "耳机品类满 800 减 100", "type": "满减", "threshold": 800.0, "value": 100, "applicable_categories": ["耳机"], "stackable": false, "start_at": "2026-09-01", "end_at": "2026-09-30", "code": null}
+{"promo_id": "PR002", "name": "键盘满 500 减 50", "type": "满减", "threshold": 500.0, "value": 50, "applicable_categories": ["键盘"], "stackable": false, "start_at": "2026-09-01", "end_at": "2026-09-30", "code": null}
+{"promo_id": "PR003", "name": "显示器满 2000 减 200", "type": "满减", "threshold": 2000.0, "value": 200, "applicable_categories": ["显示器"], "stackable": false, "start_at": "2026-09-05", "end_at": "2026-09-25", "code": null}
+{"promo_id": "PR004", "name": "全场 95 折券", "type": "折扣", "threshold": 0.0, "value": 0.95, "applicable_categories": ["耳机", "键盘", "显示器"], "stackable": true, "start_at": "2026-09-10", "end_at": "2026-09-20", "code": "SEP95"}
+{"promo_id": "PR005", "name": "新客立减 30", "type": "立减", "threshold": 0.0, "value": 30, "applicable_categories": ["耳机", "键盘", "显示器"], "stackable": true, "start_at": "2026-09-01", "end_at": "2026-12-31", "code": "NEW30"}
+{"promo_id": "PR006", "name": "耳机品类券满 300 减 30", "type": "优惠券", "threshold": 300.0, "value": 30, "applicable_categories": ["耳机"], "stackable": true, "start_at": "2026-09-01", "end_at": "2026-09-30", "code": "EAR30"}
+{"promo_id": "PR007", "name": "显示器 Type-C 机型专享 100 券", "type": "优惠券", "threshold": 1500.0, "value": 100, "applicable_categories": ["显示器"], "stackable": true, "start_at": "2026-09-01", "end_at": "2026-09-30", "code": "TYPEC100"}
+{"promo_id": "PR008", "name": "中秋限时秒杀（不参与价保）", "type": "秒杀", "threshold": 0.0, "value": 0, "applicable_categories": ["耳机"], "stackable": false, "start_at": "2026-09-25", "end_at": "2026-09-27", "code": null}
+{"promo_id": "PR009", "name": "键盘套装（键盘+手托）立减 40", "type": "套装", "threshold": 400.0, "value": 40, "applicable_categories": ["键盘"], "stackable": false, "start_at": "2026-09-01", "end_at": "2026-09-30", "code": null}
+{"promo_id": "PR010", "name": "老用户复购 98 折", "type": "折扣", "threshold": 0.0, "value": 0.98, "applicable_categories": ["耳机", "键盘", "显示器"], "stackable": true, "start_at": "2026-09-01", "end_at": "2026-12-31", "code": null}
